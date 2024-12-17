@@ -1,12 +1,14 @@
 #nav{
-    z-index: 3;
-    margin: 70px 30px 0 30px;
-    background-color: rgba(255, 255, 255, 0.667);
+    position: fixed;
+    width: 100%;
+    z-index: 5;
+    background-color: rgba(255, 255, 255, 0.671);
 }
 #carouselExample{
     width: 100%;
     position: absolute;
-    top: 0px;
+    top: 0;
+    margin-top: -50px;
 }
 #carousel-text{
     color: white;
@@ -63,7 +65,7 @@ margin-left: 100px;
 #services{
     width: 100%;
     height: 600px;
-    background-color: gray;
+    background-color:white;
 }
 #services-text{
     justify-content: center;
@@ -72,15 +74,34 @@ margin-left: 100px;
     padding-top: 50px;
     font-size: 20px;
 }
-#services-text h4{
-    color: gray;
+#services .card img{
+    border-radius: 50%;
+    box-shadow: 4px 2px 4px  black;
 }
+#services #card{
+   display: flex;
+   padding-left: 50px;
+}
+
+#card .card{
+    border: 0px;
+    margin-left: 230px;
+    margin-top: 30px;
+}
+#card .card .card-body{
+    width: 300px;
+    padding-left: -10px;
+}
+#section-5 img{
+    margin-top: -30px;
+}
+
 
 /* responsive */
 @media screen and (max-width:600px) {
     #nav{
         margin: 0px 0px 0px 0px;
-        background-color: white;
+        background-color: rgba(255, 255, 255, 0.556);
     }
     #carouselExample{
        top: 60px;
@@ -92,7 +113,8 @@ margin-left: 100px;
         margin-left: -5px;
         margin-right:0px ;
         font: 15px;
-        height: 300px;
+        height: 420px;
+        width: 101%;
     }
     #carousel-text button{
         margin-left: 30%;
@@ -104,30 +126,49 @@ margin-left: 100px;
     }
     #cards .card{
         margin-top: 200px;
-        margin-left: -0px;
+        margin-left: -2px;
+        margin-left: 50px;
     }
     #card-text{
         display: grid;
         margin-top: -1950px;
-        height: 2390px;
+        height: 2300px;
     }
     #card-text1 {
         width: 320px;
         padding-top: 300px;
         padding-left: -150px;
-        margin-left: -240px;
+        margin-left: -200px;
         
     }
     #card-text2 p{
-        margin-left: -240px;
-        margin-top: 230px;
+        margin-left: -200px;
+        margin-top: 280px;
         margin-bottom: 0px;
         width: 290px;
     }
     #card-text3 p{
-        margin-left: -240px;
-        margin-top: 250px;
+        margin-left: -200px;
+        margin-top: 290px;
         width: 290px;
+        margin-bottom: 0px;
+
+    }
+    #services{
+        height: 700px;
+        padding-left: 20px;
+    }
+    #services #services-text{
+        color: black;
+        margin-left: 50px;
+        width: 300px;
+    }
+    #services #card {
+        display: grid;
+        margin-left: 1px;
+    }
+    #card .card{
+        margin-left: 1px;
     }
     
 
