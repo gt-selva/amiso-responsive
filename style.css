@@ -213,6 +213,21 @@ margin-left: 100px;
 #section-10 p {
     margin-left: -150px;
 }
+#section-10-cards{
+    display: flex;
+}
+#section-10-cards, .card{
+    margin-left: 80px;
+    border: 0px;
+    width: 1178px;
+}
+#section-10-cards, .card ,h4 ,h2 , p {
+    padding: 5px 5px;
+}
+#card-profile {
+    display: flex;
+    border-bottom: 2px solid skyblue;  
+}
 
 
 /* responsive */
@@ -401,8 +416,17 @@ margin-left: 100px;
     margin-left: 40px;
     line-height: 20px;   
 }
-
-
+#section-10-cards{
+    display: grid;
+    margin-left: -80px;
+    width:500px;
+}
+#section-10-cards, .card{
+    width: 430px;
+}
+#section-10-cards, .card , .card-img{
+    width: 100%;
+}
 
 
 
