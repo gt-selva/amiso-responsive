@@ -1,7 +1,10 @@
+body{
+    overflow-x: hidden;
+}
 #nav{
     position: fixed;
     width: 100%;
-    z-index: 5;
+    z-index: 15;
     background-color: rgba(255, 255, 255, 0.671);
 }
 #carouselExample{
@@ -95,6 +98,32 @@ margin-left: 100px;
 #section-5 img{
     margin-top: -30px;
 }
+#ssection-4{
+    z-index: -3;
+}
+#section-4-5{
+    position: absolute;
+    z-index: 10;
+    margin-top: -350px;
+    margin-left: 750px;
+    background-color: white;
+    box-shadow: 2px 2px 2px black;
+    width: 70%;
+    height: 500px;
+}
+#section-4-5 .texts{
+    padding-left: 50px;
+    padding-top: 20px;
+}
+#section-4-5-card1{
+    display: flex;
+    margin-left: 50px;
+    margin-top: 80px;
+    width: 700px;
+}
+#section-6-text{
+
+}
 
 
 /* responsive */
@@ -104,6 +133,7 @@ margin-left: 100px;
         background-color: rgba(255, 255, 255, 0.556);
     }
     #carouselExample{
+        margin-top: 50px;
        top: 60px;
     }
     #carousel-text{
@@ -170,6 +200,24 @@ margin-left: 100px;
     #card .card{
         margin-left: 1px;
     }
-    
+    #section-4 img{
+        margin-top: 740px;
+        width: 100%;
+    }
+    #section-4-5{
+        margin-left: 1px;
+        margin-top: 20px;
+        width: 100%;
+        height: 650px;
+        box-shadow: none;
+
+    }
+    #section-4-5-card1{
+        display: grid;
+    }
+    #section-5 img{
+        margin-top: 650px;
+        width: 101%;
+    }
 
 }
