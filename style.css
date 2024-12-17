@@ -2,16 +2,16 @@ body{
     overflow-x: hidden;
 }
 #nav{
-    position: fixed;
-    width: 100%;
+    margin: 50px 50px 50px 50px;
+    width: 90%;
     z-index: 15;
-    background-color: rgba(255, 255, 255, 0.671);
+    background-color: rgba(255, 255, 255, 0.525);
 }
-#carouselExample{
-    width: 100%;
+#carouselExample-c{
     position: absolute;
+    width: 100%;
     top: 0;
-    margin-top: -50px;
+    
 }
 #carousel-text{
     color: white;
@@ -228,15 +228,44 @@ margin-left: 100px;
     display: flex;
     border-bottom: 2px solid skyblue;  
 }
+footer{
+  margin: 50px 50px 0px 50px;
+  display: flex;
+}
+footer #logo , #address ,#quicklinks , #newsletter{
+    width: 350px;
+}
+#quicklinks{
+    display: flex;
+}
+#navlist{
+    display: flex;
+    margin-top: 50px;
+    margin-left: -150px;
+}
+#newsletter button{
+    border: 0px solid ;
+    background-color: skyblue;
+    margin-left: -5px;
+    padding: 3px 5px;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+#copyrights {
+    display: flex;
+    justify-content: center;
+}
 
 
 /* responsive */
 @media screen and (max-width:600px) {
     #nav{
-        margin: 0px 0px 0px 0px;
-        background-color: rgba(255, 255, 255, 0.556);
+        width: 100%;
+        margin: 0px;
+        background-color: rgba(255, 255, 255, 0.684);
     }
     #carouselExample{
+        position: relative;
         margin-top: 50px;
        top: 60px;
     }
@@ -275,6 +304,9 @@ margin-left: 100px;
         margin-left: -200px;
         
     }
+    #card-text1 h1{
+        margin-left: -0px;
+    }
     #card-text2 p{
         margin-left: -200px;
         margin-top: 280px;
@@ -291,6 +323,9 @@ margin-left: 100px;
     #services{
         height: 700px;
         padding-left: 20px;
+    }
+    #services #services-text h1{
+        margin-left: -10px;
     }
     #services #services-text{
         color: black;
@@ -426,6 +461,13 @@ margin-left: 100px;
 }
 #section-10-cards, .card , .card-img{
     width: 100%;
+}
+footer{
+    display: grid;
+    margin-left: 20px;
+}
+#address , #quicklinks , #newsletter{
+    margin-left: 40px;
 }
 
 
