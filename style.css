@@ -98,8 +98,11 @@ margin-left: 100px;
 #section-5 img{
     margin-top: -30px;
 }
-#ssection-4{
-    z-index: -3;
+#section-4 {
+    z-index: 3;
+}
+#section-4-img{
+    margin-top: 50px;
 }
 #section-4-5{
     position: absolute;
@@ -259,8 +262,8 @@ footer #logo , #address ,#quicklinks , #newsletter{
 
 /* responsive */
 @media screen and (max-width:600px) {
-    body{
-        overflow-x: hidden;
+    .container{
+        overflow: auto;
     }
     #nav{
         width: 100%;
@@ -270,7 +273,7 @@ footer #logo , #address ,#quicklinks , #newsletter{
     #carouselExample{
         position: relative;
         margin-top: 50px;
-       top: 60px;
+        top: 60px;
     }
     #carousel-text{
         background-color: darkslategrey;
