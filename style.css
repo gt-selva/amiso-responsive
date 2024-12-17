@@ -262,6 +262,7 @@ footer #logo , #address ,#quicklinks , #newsletter{
 
 /* responsive */
 @media screen and (max-width:600px) {
+   
     .container{
         overflow: auto;
     }
