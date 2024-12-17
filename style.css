@@ -183,7 +183,36 @@ margin-left: 100px;
     box-sizing: border-box;
     box-shadow: 1px 4px 1px black;
 }
-
+#section-9 img{
+    margin-top: 80px;
+}
+#section-9-text{
+    margin-top: -300px;
+    margin-left: 800px;
+}
+#section-9-text h1{
+    margin-left: -40px;
+}
+#section-9-text button{
+    padding: 15px 15px;
+    margin-left: 80px;
+    margin-top: 20px;
+    color: white;
+    background-color: rgb(8, 149, 204);
+    border: 0px solid;
+    border-radius: 5px;
+}
+#section-10 {
+    margin-top: 200px;
+    margin-left: 600px;
+    line-height: 35px;
+}
+#section-10 h3 {
+    margin-left: 20px;
+}
+#section-10 p {
+    margin-left: -150px;
+}
 
 
 /* responsive */
@@ -344,5 +373,38 @@ margin-left: 100px;
 #section-8 h1{
     margin-left: -20px;
 }
+#section-9{
+    margin-top: -90px;
+}
+#section-9-text{
+   margin-left: 50px;
+   margin-top: -350px;
+}
+#section-9-text h1{
+    margin-left: -0px;
+}
+#section-9-text img{
+    height: 200px;
+}
+#section-10{
+    margin-left: 0;
+}
+#section-10 h3{
+    margin-left: 90px;
+    margin-top: 50px;
+}
+#section-10 h1{
+    margin-left: 90px;
+   
+}
+#section-10 p{
+    margin-left: 40px;
+    line-height: 20px;   
+}
+
+
+
+
+
 
 }
