@@ -4,6 +4,7 @@
     background-color: rgba(255, 255, 255, 0.667);
 }
 #carouselExample{
+    width: 100%;
     position: absolute;
     top: 0px;
 }
@@ -103,6 +104,7 @@ margin-left: 100px;
     }
     #cards .card{
         margin-top: 200px;
+        margin-left: -0px;
     }
     #card-text{
         display: grid;
@@ -112,18 +114,18 @@ margin-left: 100px;
     #card-text1 {
         width: 320px;
         padding-top: 300px;
-        padding-left: -90px;
-        margin-left: -150px;
+        padding-left: -150px;
+        margin-left: -240px;
         
     }
     #card-text2 p{
-        margin-left: -140px;
+        margin-left: -240px;
         margin-top: 230px;
         margin-bottom: 0px;
         width: 290px;
     }
     #card-text3 p{
-        margin-left: -140px;
+        margin-left: -240px;
         margin-top: 250px;
         width: 290px;
     }
